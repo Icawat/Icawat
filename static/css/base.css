@@ -33,7 +33,7 @@ h1 {
     margin: 0 auto;
 }
 body {
-    background-color: #A369F5; /* Background color */
+    background-color: #A369F5; 
     margin: 0;
     height: 100vh;
 }
@@ -42,7 +42,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6E568F; /* Navbar background color */
+    background-color: #6E568F; 
     height: 50px;
     width: 100%;
 }
