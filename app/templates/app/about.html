@@ -1,0 +1,63 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block content %}
+<div class="body">
+ <style>
+.body {
+    background-color: #A369F5;
+    text-align: center;
+}
+      img {
+            width: 200px; /* Set a uniform width for all images */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Ensure images are block elements */
+            margin-bottom: 10px; /* Space between images */
+
+        }
+        .social-media {
+            margin-top: 20px; /* Space above social media links */
+        }
+
+        .social-media a {
+            margin: 0 10px; /* Space between icons */
+            color: #fff; /* Icon color */
+            text-decoration: none; /* Remove underline */
+            font-size: 24px; /* Size of icons */
+        }
+
+        footer {
+            margin-top: 20px; /* Space between images and footer */
+        }
+</style>
+    <h3>About me!</h3>
+    <main>
+        <p>Im currently studying BSIT at CvSU-Bacoor campus.</p>
+        <p>Let me show you my previews project.</p>
+    </main>
+    </div>
+<div class="image-container">
+   <center> <img class="atmmachine" src="{% static 'images/atmMachine.jpg' %}" alt="atmmachine"></center>
+    <p>This is my 1st system. its quite not perfect but i did it.</p><br>
+
+    <center><img class="schedule" src="{% static 'images/schedule.jpg' %}" alt="schedule"></center>
+    <p>I did this schedule using html and css. its hard to make those line perfectly!!</p><br>
+
+    <center><img class="portfolio" src="{% static 'images/portfolio.jpg' %}" alt="portfolio"></center>
+    <p>This portfolio was made out of e-commerce style its a website i forgot which thingy i use to make this.</p><br>
+
+    <center><img class="payroll" src="{% static 'images/payrollSystem.jpg' %}" alt="payroll"><br></center>
+    <p>Its my first group project system. its hard to manage how can we make this soon as we can.</p><br>
+
+    <center><img class="grocery" src="{% static 'images/Grocery.png' %}" alt="grocery"><br></center>
+    <p>On this system i had a different group which is quite challenging because some of my group members was waorking on that time.</p><br>
+
+    <center><img class="payroll" src="{% static 'images/payroll.jpg' %}" alt="payroll"></center>
+    <p>this is the last system on 2nd year and its hard on the way of we already have a payroll before but we need to make it more functionable and to have more good qualities.</p>
+</div>
+
+
+
+ <footer>
+        <p>Contact us at info icawatlailajane@gmail.com</p>
+    </footer>
+{% endblock content %}

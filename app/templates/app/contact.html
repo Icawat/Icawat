@@ -1,0 +1,36 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block content %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="{% static 'app/base.css' %}"> <!-- Link to your base CSS -->
+</head>
+<body>
+<div class="body">
+<style>
+
+    .body {
+    background-color: #A369F5;
+    text-align: center;
+}
+</style>
+
+
+        <h4>Follow me on social media</h4>
+        <a href="https://www.facebook.com/lj.icawat.92?mibextid=ZbWKwL" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/icawatlj/" target="_blank">Instagram</a>
+        <!-- Optional icons -->
+        <a href="https://www.facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i></a>
+   </div>
+
+    <footer>
+        <p>Contact us at info icawatlailajane@gmail.com</p>
+    </footer>
+</body>
+</html>
+{% endblock content %}
